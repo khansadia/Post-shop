@@ -1,0 +1,255 @@
+/* color theme  */
+/* header-bg: #3DE07E  */
+/* red-btn: #E83F57  */
+/* footer-bg: #333333  */
+/* checkout-table-header-bg: #2F0B0B  */
+
+
+/* General Styling  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #E83F57;
+    color: #ffffff;
+    border-radius: .2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+/* Header Styling is here  */
+header {
+    background-color: #3DE07E ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+/* nav icon  */
+header .navicon {
+    align-self: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+/* page title, Poster Shop  */
+header h1 {
+    align-self: center;
+    font-size: 4rem;
+}
+/* Ninjahead image  */
+header .ninjahead {
+    align-self: center;
+    max-width: 200px;
+}
+
+/* main  */
+main {
+ margin: 5rem 0;
+}
+
+/* small-cards section  */
+.small-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+/* one card in small-cards  */
+.small-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    max-width: 30%;
+    min-width: 220px;
+}
+
+.small-card .card-img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.small-card .card-title {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.small-card .card-text {
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.small-card .card-btn {
+    width: 150px;
+    padding: .5rem 1rem;
+    font-size: .8rem;
+    margin-bottom: 5rem;
+}
+
+/* medium-cards section  */
+.medium-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+/* medium-card  */
+.medium-card {
+    max-width: 46%;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    background-color: #ffffff;
+}
+
+.medium-card .card-img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.medium-card .card-title {
+    font-size: 2rem;
+    color: #000000;
+    margin: 0 1rem;
+}
+
+.medium-card .card-text {
+    color: #000000;
+    margin: 1rem 1rem 3rem;
+}
+
+.medium-card .card-btn {
+    width: 170px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: .8rem;
+}
+
+/* footer  */
+footer {
+    background-color: #333333 ;
+    padding: 3rem 3rem 6rem;
+}
+
+.footer-groups {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.nav-group, .address-group, .social-media-group {
+    margin-bottom: 1rem;
+    max-width: 30%;
+    min-width: 220px;
+}
+
+.nav-group nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-group nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer h3 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+footer p{
+    color: #ffffff;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer ul li {
+    margin-right: 1.1rem;
+    cursor: pointer;
+}
+
+/* chaeckout screen  */
+
+.checkout-subtitle {
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.checkout {
+    color: #ffffff;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-header, .checkout-item, .checkout-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.checkout-header {
+    background-color:  #2F0B0B;
+    padding: .5rem 0;
+}
+
+.checkout-header span:first-of-type {
+    padding-left: 6rem;
+}
+
+.checkout-header span:last-of-type {
+    padding-right: 2rem;
+}
+
+.checkout-item p, .checkout-item span, .checkout-total p, .checkout-total span {
+    font-size: 1.2rem;
+}
+
+.checkout-total p, .checkout-total span {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.checkout-items>div:last-child {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2rem;
+}
+
+.checkout button {
+    padding: .8rem 1rem;
+    margin: 4rem 1rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
