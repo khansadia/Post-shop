@@ -1,11 +1,5 @@
-/* color theme  */
-/* header-bg: #3DE07E  */
-/* red-btn: #E83F57  */
-/* footer-bg: #333333  */
-/* checkout-table-header-bg: #2F0B0B  */
 
-
-/* General Styling  */
+/* General Styling for html file */
 
 * {
     margin: 0;
@@ -15,24 +9,22 @@
 
 body {
     background-color: #000000;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
 .container {
-    width: 65%;
+    width: 68%;
     margin: 0 auto;
 }
 
 button {
     background-color: #E83F57;
     color: #ffffff;
-    border-radius: .2rem;
-    cursor: pointer;
-    border: none;
-    outline: none;
+    border-radius: .4rem;
+    
 }
 
-/* Header Styling is here  */
+/*  Styling for Header Part is here  */
 header {
     background-color: #3DE07E ;
     display: flex;
@@ -43,24 +35,24 @@ header {
 /* nav icon  */
 header .navicon {
     align-self: flex-start;
-    margin: 1rem;
-    padding: 1rem;
-    cursor: pointer;
+    margin: 2cqh;
+    padding: 2cqbh;
+    
 }
 /* page title, Poster Shop  */
 header h1 {
     align-self: center;
-    font-size: 4rem;
+    font-size: 6cqmax;
 }
 /* Ninjahead image  */
 header .ninjahead {
     align-self: center;
-    max-width: 200px;
+    width: 210px;
 }
 
 /* main  */
 main {
- margin: 5rem 0;
+ margin: 3cqb 0;
 }
 
 /* small-cards section  */
@@ -77,65 +69,66 @@ main {
     flex-direction: column;
     justify-content: space-between;
     margin: 1rem;
-    max-width: 30%;
-    min-width: 220px;
+    max-width:28%;
+    min-width: 20%;
 }
 
 .small-card .card-img {
     max-width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 4px;
 }
 
 .small-card .card-title {
     font-size: 2rem;
-    color: #ffffff;
-    margin-bottom: 1rem;
+    color: white;
+    margin-bottom: 2px;
 }
 
 .small-card .card-text {
-    color: #ffffff;
+    color: white;
     margin-bottom: 2rem;
 }
 
 .small-card .card-btn {
     width: 150px;
     padding: .5rem 1rem;
-    font-size: .8rem;
-    margin-bottom: 5rem;
+    font-size: 12px;
+    margin-bottom: 5cap;
 }
 
-/* medium-cards section  */
+/* Medium-cards section  */
 .medium-cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
-    flex-wrap: wrap;
+    
 }
 
 /* medium-card  */
 .medium-card {
-    max-width: 46%;
-    min-width: 220px;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     margin: 1rem;
     background-color: #ffffff;
-}
+    max-width: 45%;
+    min-width: 30%;
+    display: flex;
+    flex-direction: column;
+   }
 
 .medium-card .card-img {
-    max-width: 100%;
+    max-width: 80%;
     margin-bottom: 1rem;
 }
 
 .medium-card .card-title {
     font-size: 2rem;
-    color: #000000;
+    color: black;
     margin: 0 1rem;
 }
 
 .medium-card .card-text {
-    color: #000000;
+    color: black;
     margin: 1rem 1rem 3rem;
 }
 
@@ -143,26 +136,25 @@ main {
     width: 170px;
     padding: 1rem;
     margin: 1rem;
-    font-size: .8rem;
+    font-size: 12px;
 }
 
 /* footer  */
 footer {
-    background-color: #333333 ;
-    padding: 3rem 3rem 6rem;
+    background-color: rgb(10, 8, 8);
+    padding: 10pt 10pc 10pc;
 }
 
 .footer-groups {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
 }
 
 .nav-group, .address-group, .social-media-group {
-    margin-bottom: 1rem;
-    max-width: 30%;
-    min-width: 220px;
+    margin-bottom: 5px;
+    max-width: 180px;
+    min-width: 200px;
 }
 
 .nav-group nav {
@@ -172,17 +164,17 @@ footer {
 
 .nav-group nav a {
     text-decoration: none;
-    color: #ffffff;
+    color:white;
 }
 
 footer h3 {
-    font-size: 2rem;
-    color: #ffffff;
-    margin-bottom: 1rem;
+    font-size: 12px;
+    color:white;
+    margin-bottom:10px;
 }
 
 footer p{
-    color: #ffffff;
+    color: white
 }
 
 footer ul {
@@ -191,20 +183,20 @@ footer ul {
 }
 
 footer ul li {
-    margin-right: 1.1rem;
+    margin-right: px;
     cursor: pointer;
 }
 
 /* chaeckout screen  */
 
 .checkout-subtitle {
-    color: #ffffff;
+    color: white;
     font-size: 2rem;
     padding: 1rem;
 }
 
 .checkout {
-    color: #ffffff;
+    color: white;
     padding: 1rem;
     margin-top: 1rem;
     display: flex;
